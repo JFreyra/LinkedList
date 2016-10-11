@@ -25,6 +25,7 @@ struct node *free_list(struct node *start){
     free(start);
     start = temp;
   }
+  return startTemp;
 }
 
 void main(){
